@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         plugin = {"pretty"},
         features = "src/test/resources/features",
-        glue = "stepsDefinitions",
+        glue = "steps",
         snippets = CucumberOptions.SnippetType.CAMELCASE,
         dryRun = false,
         tags = "@login"
